@@ -1,0 +1,36 @@
+.mb-percentage-bar{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.gamebar{
+  display: flex;
+  margin: auto;
+  width: 70%;
+  height: 2em;
+  border-radius: 5px;
+  background-color: var(--main-blue);
+  overflow: hidden;
+}
+
+.gamebar-full{
+  display: flex;
+  align-self: flex-start;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--main-orange);
+}
+
+.pb-text{
+  display: flex;
+  width: 13%;
+  justify-content: center;
+  line-height: 1em;
+}
+.t1{
+  color: var(--main-orange);
+}
+.t2{
+  color: var(--main-blue);
+}

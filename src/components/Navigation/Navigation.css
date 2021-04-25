@@ -1,0 +1,51 @@
+.MuiAppBar-colorPrimary{
+  background-color: var(--main-red)!important;
+}
+.MuiToolbar-root{
+  justify-content: space-between;
+}
+.nav-main-holder {
+  background-color: var(--main-red);
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  height: 50px;
+  align-items: center;
+}
+.nav-main-holder *{
+  display: flex;
+}
+.nav-main-content ul{
+  justify-content: space-between;
+  width: 100%;
+  margin: auto 1em;
+  padding-inline-start: 0;
+  height: 50px;
+}
+.nav-main-content ul li{
+  align-items: center;
+  margin: auto 1em;
+  font-size: 1.1em;
+  text-transform: uppercase;
+
+}
+.nav-main-content a{
+    text-decoration: none;
+    color: var(--main-text);
+}
+.logo{
+    max-height: 30px;
+}
+
+#menu-appbar *{
+  text-decoration: none;
+  color: var(--mid-gray-1);
+}
+
+.MuiToolbar-regular {
+  /* min-height: 50px; */
+}

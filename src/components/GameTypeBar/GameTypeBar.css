@@ -1,0 +1,35 @@
+.game-type-holder{
+  width: 100%;
+  /* max-width: 1000px; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.game-type-banner{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-self: flex-start;
+  background-size: cover;
+  background-position: left center;
+  align-items: middle;
+  justify-content: center;
+}
+
+.game-type-banner h3{
+  align-self: center;
+}
+
+.game-type-more{
+
+}
+
+.match-holder{
+  padding: 0.5em;
+  display: grid;
+  gap: 0.5em;
+  grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+  grid-template-rows: repeat(auto-fit, 110px);
+}

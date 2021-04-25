@@ -1,0 +1,19 @@
+.App{
+  width: 100vw;
+  max-width: 1000px;
+  height: 100%;
+  min-height: 100vh;
+  background-color: var(--main-bg);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.top-spacer{
+  height: 64px;
+  top: 0;
+  align-self: flex-start;
+  display: flex;
+  background-color: hotpink;
+  /* transform: translateY(50px); */
+}

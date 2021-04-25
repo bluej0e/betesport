@@ -1,0 +1,26 @@
+.game-type-holder{
+  width: 100vw;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.game-type-banner{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-self: flex-start;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-type-banner h3{
+
+}
+
+.game-type-more{
+
+}
